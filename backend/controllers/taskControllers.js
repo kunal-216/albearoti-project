@@ -51,9 +51,6 @@ const deleteTask = async (req, res) => {
     const { id } = req.params; 
     const userId = req.user.id; 
 
-    console.log(id)
-    console.log(userId)
-
     try {
         const deletedTask = await taskModel.findOneAndDelete({ _id: id, userId });
 
