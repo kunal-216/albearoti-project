@@ -10,6 +10,8 @@ The Task Manager Application is a web-based tool designed to help users create, 
 - **API Documentation**: Detailed API documentation available via Swagger UI.
 
 ## Project Structure
+
+```
 /backend
 |-- /src
 |   |-- /controllers      # Business logic and request handling
@@ -20,6 +22,7 @@ The Task Manager Application is a web-based tool designed to help users create, 
 |   |-- server.js         # Entry point for the application
 |-- package.json          # Project metadata and dependencies
 /README.md             # Project documentation
+```
 
 ## Technologies Used
 - **Node.js**: JavaScript runtime for server-side development.
