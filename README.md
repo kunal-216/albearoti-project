@@ -29,7 +29,6 @@ The Task Manager Application is a web-based tool designed to help users create, 
 - **MongoDB**: NoSQL database for storing user and task data.
 - **Mongoose**: ODM library for MongoDB and Node.js.
 - **JWT**: For secure user authentication.
-- **Swagger**: For API documentation.
 - **Bcrypt.js**: For hashing passwords.
 
 ## Installation Instructions
@@ -53,13 +52,14 @@ To run the Task Manager Application locally, follow these steps:
 
 3. **Configure Environment Variables**: Create a `.env` file in the root directory and add the necessary configuration:
    ```
-   PORT=3000
+   PORT=4000
    MONGODB_URI=<your-mongodb-uri>
    JWT_SECRET=<your-jwt-secret>
    ```
 
 4. **Run the Application**:
    ```bash
+   cd backend
    npm start
    ```
 
@@ -76,7 +76,7 @@ To run the Task Manager Application locally, follow these steps:
     ```
   - **Response**: Success message or error details.
 
-- **POST /api/auth/login**: Authenticate a user and return a JWT.
+- **POST /api/uer/login**: Authenticate a user and return a JWT.
   - **Request Body**: 
     ```json
     {
