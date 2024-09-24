@@ -13,15 +13,14 @@ The Task Manager Application is a web-based tool designed to help users create, 
 
 ```
 /backend
-|-- /src
-|   |-- /controllers      # Business logic and request handling
-|   |-- /models           # Database models and schema definitions
-|   |-- /routes           # API routes and endpoint definitions
-|   |-- /middlewares      # Custom middleware functions
-|   |-- /config           # Configuration files (e.g., database, environment variables)
-|   |-- server.js         # Entry point for the application
-|-- package.json          # Project metadata and dependencies
-/README.md             # Project documentation
+|-- /controllers      # Business logic and request handling
+|-- /models           # Database models and schema definitions
+|-- /routes           # API routes and endpoint definitions
+|-- /middlewares      # Custom middleware functions
+|-- /config           # Configuration files (e.g., database)
+|-- server.js         # Entry point for the application
+|-- package.json      # Project metadata and dependencies
+/README.md            # Project documentation
 ```
 
 ## Technologies Used
